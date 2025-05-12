@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Semua isi tampilan utama dibungkus dalam FrameLayout -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Gambar latar belakang -->
+        <ImageView
+            android:id="@+id/backgroundImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/background"
+            android:scaleType="centerCrop" />
+
+       
+        
+        <!-- Status GPS & tombol START di tengah layar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="#80000000"> <!-- Overlay semi-transparan -->
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status GPS"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:paddingTop="16dp" />
+
+            <TextView
+                android:id="@+id/tvLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/out_border"
+                android:text="Lokasi belum tersedia"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                android:paddingTop="8dp" />
+
+            <Button
+                android:id="@+id/btnStartStop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="START"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#b53f78"
+                android:layout_marginBottom="8dp" />
+        </LinearLayout>
+
+        <!-- Tombol Menu di pojok kanan atas -->
+        <Button
+            android:id="@+id/menuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:backgroundTint="#696969"
+            android:layout_margin="16dp"
+            android:layout_gravity="end|top" />
+    </FrameLayout>
+
+
+    <!-- Navigation Drawer -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/drawer_background"
+        android:fitsSystemWindows="true"
+        
+        app:headerLayout="@layout/drawer_header" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

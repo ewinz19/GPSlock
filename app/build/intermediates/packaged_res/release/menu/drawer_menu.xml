@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/buttontes"
+        android:title="status Gps"/>
+    <item
+        android:id="@+id/buttontes1"
+        android:title="settings"/>
+    
+
+
+
+
+
+</menu>
+
+
+

@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/root/GPSLOCK/app"
+    name=":app"
+    type="APP"
+    maven="GPSLOCK:app:"
+    agpVersion="8.1.0"
+    buildFolder="build"
+    bootClassPath="/usr/lib/android-sdk/platforms/android-34/android.jar:/usr/lib/android-sdk/build-tools/33.0.1/core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-34">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

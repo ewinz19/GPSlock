@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- Server XTRA yang aktif -->
+        <domain includeSubdomains="true">xtrapath1.izatcloud.net</domain>
+        <domain includeSubdomains="true">xtrapath2.izatcloud.net</domain>
+        <domain includeSubdomains="true">xtrapath3.izatcloud.net</domain>
+        <domain includeSubdomains="true">xtra1.gpsonextra.net</domain>
+        <domain includeSubdomains="true">xtra2.gpsonextra.net</domain>
+        <domain includeSubdomains="true">xtra3.gpsonextra.net</domain>
+        <domain includeSubdomains="true">gllto.glpals.com</domain>
+        <domain includeSubdomains="true">gllto1.glpals.com</domain>
+        <domain includeSubdomains="true">gllto2.glpals.com</domain>
+    </domain-config>
+</network-security-config>

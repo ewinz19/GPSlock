@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.ewinz.winz.app-mergeReleaseResources-31:/layout/drawer_header.xml",
+        "source": "com.ewinz.winz.app-main-34:/layout/drawer_header.xml"
+    },
+    {
+        "merged": "com.ewinz.winz.app-mergeReleaseResources-31:/layout/activity_main.xml",
+        "source": "com.ewinz.winz.app-main-34:/layout/activity_main.xml"
+    }
+]

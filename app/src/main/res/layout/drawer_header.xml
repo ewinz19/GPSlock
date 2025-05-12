@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+     
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Gps"
+        android:drawableStart="@drawable/ic_reset"
+        android:backgroundTint="#3F51B5"
+        android:layout_marginTop="8dp"/>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:drawableStart="@drawable/ic_download"
+        android:text="Download Xtra Gps"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reload Xtra"
+        android:drawableStart="@drawable/ic_inject"
+        android:backgroundTint="#3F51B5"
+        android:layout_marginTop="8dp"/>
+
+
+
+
+        <!-- Teks header -->
+        <TextView
+            android:id="@+id/headerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings  GPS pro📡 V2.0 by ewinz"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="24dp"/>
+
+
+
+
+<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp">
+
+            <!-- Label untuk interval -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Interval(ms)"
+                android:textColor="@color/yellow"
+                android:textSize="14sp" />
+
+            <!-- Kolom input interval -->
+            <EditText
+                android:id="@+id/intervalInput"
+                android:hint=" 3"
+                android:textColorHint="@color/hijau"
+                android:inputType="number"
+                android:background="@drawable/edittext_border"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp" />
+
+            <!-- Label untuk distance -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jarak (meter)"
+                android:textColor="@color/yellow"
+                android:textSize="14sp" />
+
+            <!-- Kolom input distance -->
+            <EditText
+                android:id="@+id/distanceInput"
+                android:hint=" 0"
+                android:textColorHint="@color/hijau"
+                android:inputType="numberDecimal"
+                android:background="@drawable/edittext_border"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+         <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cek gps"
+        android:drawableStart="@drawable/ic_cek"
+        android:backgroundTint="#3F51B5"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="settings"
+        android:drawableStart="@drawable/ic_settings"
+        android:backgroundTint="#3F51B5"
+        android:layout_marginTop="8dp"/>
+
+
+
+
+
+
+</LinearLayout>
