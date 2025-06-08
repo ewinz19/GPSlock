@@ -32,7 +32,7 @@ android {
 
     buildTypes {
         release {
-            // Groovy DSL menggunakan nama property tanpa 'is'
+            
             minifyEnabled true
             shrinkResources true
             debuggable false
