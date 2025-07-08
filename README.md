@@ -9,6 +9,12 @@ download :
   </a>
 </p>
 
+
+
+
+
+fingerprints:
+         SHA1: 01:65:37:B5:94:94:76:02:F4:F0:BE:80:1A:86:7C:BC:7F:3D:55:7E
 ## Lisensi
 
 Aplikasi ini dilisensikan di bawah MIT License.  
