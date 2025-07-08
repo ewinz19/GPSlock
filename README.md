@@ -9,3 +9,8 @@ download :
   </a>
 </p>
 
+## Lisensi
+
+Aplikasi ini dilisensikan di bawah MIT License.  
+Silakan gunakan, modifikasi, atau distribusikan, **selama mencantumkan kredit kepada pembuat asli (Ewinz)**.  
+[Lihat file LICENSE untuk detail lengkap.](./LICENSE)
