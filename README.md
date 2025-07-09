@@ -12,8 +12,8 @@ download :
 
 ##
 
-<h2>Screenshot Aplikasi</h2>
-<img src="https://raw.githubusercontent.com/ewinz19/GPSlock/main/Images/screenshot3.jpg" alt="Tampilan Notifikasi" width="300"/>
+<h2>Screenshot Notifikasi</h2>
+<img src="https://raw.githubusercontent.com/ewinz19/GPSlock/main/Images/screenshot1.jpg" alt="Tampilan Notifikasi" width="300"/>
 
 ##
 <h2>Screenshot Home</h2>
@@ -21,7 +21,7 @@ download :
 
 ##
 <h2>Screenshot Settings</h2>
-<img src="https://raw.githubusercontent.com/ewinz19/GPSlock/main/Images/screenshot1.jpg" alt="Tampilan Pengaturan" width="300"/>
+<img src="https://raw.githubusercontent.com/ewinz19/GPSlock/main/Images/screenshot3.jpg" alt="Tampilan Pengaturan" width="300"/>
 
 ##
 
